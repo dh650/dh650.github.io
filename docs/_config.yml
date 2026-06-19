@@ -1,4 +1,11 @@
-theme: minima
-title: {{ login }}'s personal blog
-description: on this website i’ll post anything i find worth sharing, such as my ctf writeups or code i write.
-author: {{ login }}
+remote_theme: pages-themes/hacker@v0.2.0
+
+plugins:
+- jekyll-remote-theme
+
+title: title
+
+description: desc
+
+
+show_downloads: false
